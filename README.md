@@ -17,10 +17,12 @@ This project uses Graph Neural Networks (GNNs) to predict electron density evolu
 
 ## Project Structure
 
-- `ammonia_x/` - Ammonia electron density time series data (gitignored)
-- `water_x/` - Water electron density time series data (gitignored)
-- **`electron_density_gnn_multi_input.ipynb`** - Multi-input → Single-output prediction
-- **`electron_density_gnn_multi_future.ipynb`** - Single-input → Multi-output prediction
+- `data/` - Raw datasets and archives (gitignored)
+- `models/` - Saved PyTorch model weights
+- `notebooks/` - Jupyter notebooks for training and evaluation
+  - **`electron_density_gnn_multi_input.ipynb`** - Multi-input → Single-output prediction
+  - **`electron_density_gnn_multi_future.ipynb`** - Single-input → Multi-output prediction
+- `reports/` - Model performance summaries
 - `requirements.txt` - Python dependencies
 - `gnn_env/` - Virtual environment (gitignored)
 - `.gitignore` - Excludes large data and virtual env from git

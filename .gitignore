@@ -1,4 +1,5 @@
 # Ignore large data folders and output files
+data/
 ammonia_x/
 water_x/
 *.out_tdscf_rvl
